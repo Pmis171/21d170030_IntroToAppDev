@@ -61,7 +61,7 @@ class _CounterPageState extends State<CounterPage> {
         children:[
         FloatingActionButton(
         onPressed: _decrementCounter,
-        tooltip: 'Increment',
+        tooltip: 'Decrement',
         child: Icon(Icons.remove),
       ),
         Expanded(child: Container()),
